@@ -1,0 +1,26 @@
+.typography {
+  color: red;
+  font-size: 10px;
+  /* white-space: nowrap; */
+
+  /* letter-spacing: 10px; */
+  /* line-height: 100px; */
+  /* text-decoration: blue line-through; */
+  text-transform: uppercase;
+  font-weight: 900;
+  text-decoration: underline;
+  text-align: center;
+  /* border: grubość-bordera typ-bordera kolor-bordera  */
+  border: 5px solid yellowgreen;
+  transition: transform 0.5s;
+  display: inline-block;
+  width: 500px;
+  height: 100px;
+  line-height: 100px;
+  border-radius: 20px 40px 60px 100px;
+  /* border-radius: 20px; */
+}
+
+/* .typography:hover {
+  transform: scale(1.2);
+} */
