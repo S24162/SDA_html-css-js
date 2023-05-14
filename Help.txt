@@ -1,0 +1,7 @@
+Ctrl + Shift + P    || Serach ('>' is important)
+Alt + Shift + F     || Format Document
+Ctrl + S            || Save file
+
+
+mdn         || Tags search
+W3Schools   || Tags search
