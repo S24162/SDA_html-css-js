@@ -14,3 +14,62 @@
       }
     </style>
  -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    table,
+    th,
+    td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+  </style>
+
+</head>
+
+<body>
+  <table>
+    <thead>
+      <tr>
+        <th>Todo</th>
+        <th>Priority</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Pouczyć się technologi frontendowych</td>
+        <td><select>
+            <option value="1">low</option>
+            <option value="2" selected>medium</option>
+            <option value="3" >high</option>
+          </select></td>
+        <td> <input type="checkbox" checked /> </td>
+        <td><button type="button">x</button></td>
+      </tr>
+
+      <tr>
+        <td>Pouczyć się technologi backendowych</td>
+        <td><select>
+            <option value="1">low</option>
+            <option value="2">medium</option>
+            <option value="3" selected>high</option>
+          </select></td>
+        <td> <input type="checkbox" /> </td>
+        <td><button type="button">x</button></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+</body>
+
+</html>

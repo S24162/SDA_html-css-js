@@ -55,7 +55,8 @@
   <br />
   <br />
 
-  <input type="range" />
+  Range
+  <input type="range" min="10" max="100" />
   <br />
   <br />
 
@@ -72,13 +73,33 @@ dla atrybutu type wartość określa dokumentacja/specyfikacja -->
   <input type="radio" name="nazwa_grupy" id="" class="" />
   <input type="radio" name="nazwa_grupy" />
   <input type="radio" name="nazwa_grupy" />
-  <br />
-  <br />
+  <br /> <br />
 
   <p>Radio buttony bez atrybutu "name" - nie działają jak gruppa radio buttonów</p>
-  <input type="radio" id="" class="" />
-  <input type="radio" />
-  <input type="radio" />
+  <input type="radio" id="" class="radio-class-with-red-border" />
+  <input type="radio" class="radio-class-with-green-border" />
+  <input type="radio" class="" />
+  <br /> <br />
+
+  <input type="" />
+  <br /><br />
+
+  <select id="" class="">
+    <option value="" hidden>Wybierz kraj</option>
+    <option value="1"> Poland </option>
+    <option value="2"> England </option>
+    <option value="3"> France </option>
+  </select>
+  <br /><br />
+
+  <form action="" id="" class="" name="">
+    <label for="login">Login</label>
+    <input id="login" type="text" placeholder="Enter login..." />
+
+    <label> Password <input type="password" /> </label>
+
+    <button type="">Login</button>
+  </form>
 </body>
 
 </html>

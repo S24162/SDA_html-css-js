@@ -1,6 +1,8 @@
-Ctrl + Shift + P    || Serach ('>' is important)
-Alt + Shift + F     || Format Document
-Ctrl + S            || Save file
+Ctrl + Shift + P            || Serach ('>' is important)
+Alt + Shift + F             || Format Document
+Ctrl + S                    || Save file
+Alt (+ Shift) + LeftClick   || Write in a several places in at one time
+Alt + 2LeftClick            || Highlight in a several places in at one time
 
 
 mdn         || Tags search

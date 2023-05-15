@@ -1,18 +1,34 @@
 <!-- 
-  na podstawie nowo zdobytej wiedzy o tagach i spróbuj napisać kod HTML który wyświetli dokładnie to co w pliku design.png
+  na podstawie nowo zdobytej wiedzy o tagach i spróbuj napisać kod HTML 
+  który wyświetli dokładnie to co w pliku design.png
 
-  hint1: dużo kodu będziesz mógł/mogła użyć z poprzedniego zadania jednak będziesz musiał/a wykorzystać "naturę" elementów 
+  hint1: dużo kodu będziesz mógł/mogła użyć z poprzedniego zadania jednak 
+  będziesz musiał/a wykorzystać "naturę" elementów 
   HTMLowych tak żeby uzyskać oczekiwany efekt
 
-  hint2: użyj elementów blokowych do pogrupowania labelek i inputów tak żeby każdy input i labelka ułożyły się jeden po drugim
+  hint2: użyj elementów blokowych do pogrupowania labelek i inputów tak 
+  żeby każdy input i labelka ułożyły się jeden po drugim
 
 -->
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body></body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body>
+  <form>
+    <p><label> Jak masz na imie? <input type="text" placeholder="Imie (max 20 znaków)" /></label></p>
+    <div><label> Jak masz na nazwisko? <input type="text" placeholder="Nazwisko (max 20 znaków)" /></label></div>
+    <div><label> Podaj hasło <input type="password" placeholder="Hasło" /></label></div>
+    <div><label> Powtórz hasło <input type="password" placeholder="Powtórz hasło" /></label></div>
+    <p><button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </p>
+  </form>
+</body>
+
 </html>
