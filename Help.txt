@@ -18,7 +18,7 @@ jsonplaceholder.typicode.com    || Free fake API for testing and prototyping
 
 Mockowe dane??
 
-tr*3    || (table row) Gives    <tr></tr>
-                                <tr></tr>
-                                <tr></tr>
+tr*3                || (table row) Gives    <tr></tr>
+                                            <tr></tr>
+                                            <tr></tr>
 #[id name]          || take element with id to js
