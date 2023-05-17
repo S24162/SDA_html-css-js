@@ -6,9 +6,19 @@ Alt + 2LeftClick            || Highlight in a several places in at one time
 Alt + `                     || Open/close console
 
 
+
+
 mdn                 || Tags search
 W3Schools           || Tags search
 flukeout.github.io  ||
 flexboxfroggy.com   ||
 flexboxdefense.com  || fine exercise in CSS
 picocss.com/docs/   || fine style files
+jsonplaceholder.typicode.com    || Free fake API for testing and prototyping
+
+Mockowe dane??
+
+tr*3    || (table row) Gives    <tr></tr>
+                                <tr></tr>
+                                <tr></tr>
+#[id name]          || take element with id to js
