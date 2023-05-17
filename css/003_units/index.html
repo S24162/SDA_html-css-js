@@ -1,57 +1,71 @@
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <style>
-      :root {
-        font-size: 62.5%; /* 16px (defaultowa wartość) x 62.5% = 10px  */
-      }
 
-      .container {
-        height: 600px;
-        width: 400px;
-        background-color: aqua;
-      }
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <style>
+    /* :root {
+      font-size: 62.5%;
+       16px (defaultowa wartość) x 62.5% = 10px  
+    } */
 
-      p {
-        font-size: 24px;
-      }
+    .container {
+      height: 600px;
+      width: 400px;
+      background-color: aqua;
+    }
 
-      div {
-        font-size: 1rem;
-      }
+    p {
 
-      .inner-div {
-        background-color: red;
-        width: 50%; /* 200px */
-        height: 50%; /* 300px */
-      }
+    }
 
-      button {
-        background-color: green;
-        border: none;
-        border-radius: 10px;
-        font-size: 2rem;
-        /* padding: top right bottom left; */
-        /* padding: y x; */
-        padding: 0.5em 1em;
-      }
-    </style>
-  </head>
-  <body>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae,
-      aperiam?
-    </p>
-    <div>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, quis.
+    div {
+      
+    }
+
+    .outer-div {
+      height: 75vh;
+      width: 50vw;
+      background-color: aqua;
+    }
+
+    .inner-div {
+      height: 50%;
+      width: 25%;
+      background-color: red;
+    }
+
+    button {
+      background-color: green;
+      border: none;
+      border-radius: 10px;
+      font-size: 2rem;
+      padding: 1em;
+
+    }
+  </style>
+</head>
+
+<body>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae,
+    aperiam?
+  </p>
+  <div>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, quis.
+  </div>
+
+  <button>CLICK ME</button>
+
+  <div class="outer-div">
+    <div class="inner-div">
+
     </div>
+  </div>
 
-    <button>CLICK ME</button>
-
-    <!-- 
+  <!-- 
       I tutaj matematyka stety niestety może się troche przydać ALE z drugiej strony bez przesady :) 
 
       Jednostki wykorzystywane w CSS: 
@@ -62,16 +76,16 @@
       vh
       vw
 
-      rem
-      em
+      rem - fontsize relatiwny( do Google Chrome settings-fontsize)
+      em - rozmiar odnośnie najblizszego rodzica
 
      -->
 
-    <!-- <div class="container">
+  <!-- <div class="container">
       <div class="inner-div"></div>
     </div> -->
 
-    <!-- 
+  <!-- 
 
 
 Fizyczny piksel to najmniejszy element wizualny wyświetlany na ekranie, 
@@ -93,5 +107,6 @@ niezależnie od ich rozdzielczości fizycznej.
 
 
       -->
-  </body>
+</body>
+
 </html>

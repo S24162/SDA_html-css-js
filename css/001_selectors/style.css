@@ -1,0 +1,15 @@
+h1 {
+    color: red;
+}
+
+.ustaw-kolor-czerwony {
+    color: #0eaf59;
+}
+
+.paragraph_blue {
+    color: blue;
+}
+
+.paragraph_font-25 {
+    font-size: 25px;
+}

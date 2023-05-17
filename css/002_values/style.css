@@ -1,26 +1,66 @@
-.typography {
-  color: red;
-  font-size: 10px;
-  /* white-space: nowrap; */
+/* .typography {
+    color: red;
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-weight: 900;
+    line-height: 20px;
+    text-decoration: underline;
+    text-align: center;
+    background-color: blue;
+    opacity: 80%;
+    border-style: dotted;
+    border-color: black;
+    border-radius: 5px;
+    border-width: 3px;
+    display: none; 
+    height: min-content;
+    width: 500px;
+    display: block;
+    line-height: 30px;
+    
+} */
 
-  /* letter-spacing: 10px; */
-  /* line-height: 100px; */
-  /* text-decoration: blue line-through; */
-  text-transform: uppercase;
-  font-weight: 900;
-  text-decoration: underline;
-  text-align: center;
-  /* border: grubość-bordera typ-bordera kolor-bordera  */
-  border: 5px solid yellowgreen;
-  transition: transform 0.5s;
-  display: inline-block;
-  width: 500px;
-  height: 100px;
-  line-height: 100px;
-  border-radius: 20px 40px 60px 100px;
-  /* border-radius: 20px; */
+body {
+    background-color: rgba(166, 166, 166, 0.646);
 }
 
-/* .typography:hover {
-  transform: scale(1.2);
-} */
+button {
+    color: white;
+    background-color: green;
+    margin: 60px;
+    padding: 20px;
+    border: none;
+    border-radius: 20%;
+
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: rgb(199, 140, 39);
+    cursor: pointer;
+}
+
+.typography {
+    color: red;
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-weight: 900;
+    line-height: 30px;
+    text-decoration: underline;
+    text-align: center;
+    text-orientation: upright;
+    /* TODO jak zrobić oreintacje pionową */
+
+    background-color: #123123;
+    /* opacity: 50%; */
+    /* border: grubosc typ kolor; */
+    border: #2f21f1 solid 10px;
+
+    /* display: none; */
+    /* opacity: 0; */
+
+    width: 500px;
+    /* height: 200px; */
+
+    display: block;
+}

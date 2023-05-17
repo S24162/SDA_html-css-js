@@ -9,11 +9,18 @@
  *
  */
 
+let userName = "John";
+userName = "Jane";
+
 /**
  * console.log
  *
  * narzędzia deweloperskie
  */
+
+console.log(userName);
+console.log("Fackts");
+console.log(123);
 
 /**
  * typy danych
@@ -33,26 +40,46 @@
  *
  */
 
+let age; let year = null
+console.log(age, year, "jakiś string od ręki")
+
+let number = 23; // typ number
+number = 23.333; // też number
+const name = "John"; // typ string
+let areYouStupid = true; // boolean
+
 /**
  * funkcje warunkowe
  *
  *
  */
 
+if (20 + 1 === 21 && number > 20 || !areYouStupid) {
+  console.log("20 + 1 = " + 20 + 1 + " tzn. niepoprawnie")
+  console.log(20 + 1 + " a tak poprawnie")
+  console.log((!areYouStupid))
+} else if (areYouStupid) {
+  console.log((areYouStupid));
+} else {
+  console.log(" last ELSE ");
+}
+
 /**
  * Zadanie:
  * Napisz warunek który będzie sprawdzał
- * czy zmienna age jest większa niż 18 jeżeli tak wyświetl w konsoli informacje że user jest dorosły
+ * czy zmienna age jest większa niż 18 jeżeli tak wyświetl 
+ * w konsoli informacje że user jest dorosły
  * w przeciwnym wypadku wyświetl wiadomosc odwrotną
  *
  */
 
-// if (age >= 18) {
-//   console.log("Użytkownik jest dorosły");
-// } else if (age < 18) {
-//   console.log("Użytkownik jest za młody");
-//   console.log(123);
-// }
+if (age >= 18) {
+  console.log("Użytkownik jest dorosły");
+} else if (age < 18) {
+  console.log("Użytkownik jest za młody");
+} else {
+  console.log(age + " Zmienna jest nie zdefiniowana");
+}
 
 /**
  * struktury danych
@@ -168,7 +195,7 @@
  *
  */
 
-const isUserAdult = (user) => {};
+const isUserAdult = (user) => { };
 
 function getNumbersOfAdultsPerGender() {
   /**

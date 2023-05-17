@@ -1,0 +1,39 @@
+.btn {
+    color: lightgray;
+    /* display: block; */
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(184, 60, 190);
+}
+
+.btn:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.btn--submit {
+    background-color: green;
+}
+
+.btn--reset {
+    background-color: red;
+}
+
+.btn--block {
+    width: 100%;
+    display: block;
+    background-color: blue;
+}
+
+.btn--edit {
+    background-color:  rgb(184, 60, 190);
+    display: inline-table;
+}
+
+.btn--block {
+    width: 100%;
+    display: block;
+    background-color: blue;
+}

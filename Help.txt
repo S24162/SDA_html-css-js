@@ -3,7 +3,12 @@ Alt + Shift + F             || Format Document
 Ctrl + S                    || Save file
 Alt (+ Shift) + LeftClick   || Write in a several places in at one time
 Alt + 2LeftClick            || Highlight in a several places in at one time
+Alt + `                     || Open/close console
 
 
-mdn         || Tags search
-W3Schools   || Tags search
+mdn                 || Tags search
+W3Schools           || Tags search
+flukeout.github.io  ||
+flexboxfroggy.com   ||
+flexboxdefense.com  || fine exercise in CSS
+picocss.com/docs/   || fine style files

@@ -12,10 +12,28 @@
         /* margin: 0; */
       }
       .box-model {
-        margin: 20px;
         background-color: aqua;
         height: 300px;
         width: 300px;
+        padding: 10px;
+        border: 30px solid red;
+        margin: 20px;
+
+        margin-top: 50px;
+        padding-left:50px;
+
+        /* margin: top right bottom left; */
+        margin: 10px 20px 30px 40px;
+        padding: 50 100 20 10;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      span {
+        background-color: rgb(87, 150, 150);
+        padding: 20px;
       }
     </style>
   </head>
@@ -25,5 +43,7 @@
      -->
 
     <div class="box-model">Lorem ipsum dolor sit amet.</div>
+
+    <span>Lorem ipsum dolor sit amet.</span>
   </body>
 </html>
